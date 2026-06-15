@@ -54,38 +54,33 @@ function Index() {
             <div className="flex items-center gap-2">
               <span className="inline-block h-2 w-2 rounded-full bg-[#D6FF3D]" />
               <p className="font-display text-xs uppercase tracking-[0.3em] text-white/60">
-                Available for projects — 2026
+                Hey There! Abraham Oluwofobi Here
               </p>
             </div>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(2.8rem,9vw,9rem)] font-medium leading-[0.95] tracking-tighter">
-              Designing <span className="text-[#D6FF3D]">brands</span> &<br />
-              building <span className="italic font-light">websites</span> that
+            <h1
+              className="mt-8 font-display font-medium leading-[0.9] tracking-tighter"
+              style={{ fontSize: "clamp(3.5rem, 12vw, 13rem)" }}
+            >
+              DESIGN <span className="text-[#D6FF3D]">✦</span>
               <br />
-              actually work.
+              PARTNER
             </h1>
           </Reveal>
           <Reveal delay={0.2}>
-            <div className="mt-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-              <p className="max-w-md font-display text-lg text-white/70">
-                I'm Abraham Oluwofobi — an independent designer and developer working with founders,
-                studios and ambitious teams.
+            <div className="mt-12 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+              <p className="max-w-xl font-display text-lg text-white/70 md:text-xl">
+                I believe in the power of innovation and creativity to transform your ideas into
+                exceptional digital experiences. Working closely with you, I strive to bring your
+                vision to life.
               </p>
-              <div className="flex items-center gap-3">
-                <Link
-                  to="/projects"
-                  className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-display text-sm font-medium text-black hover:scale-105 transition-transform"
-                >
-                  View Projects <span>↗</span>
-                </Link>
-                <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 font-display text-sm hover:bg-white/5 transition-colors"
-                >
-                  Get in touch
-                </Link>
-              </div>
+              <Link
+                to="/contact"
+                className="group inline-flex h-32 w-32 shrink-0 items-center justify-center rounded-full border border-white/20 bg-transparent font-display text-sm uppercase tracking-[0.2em] text-white transition-colors hover:bg-[#D6FF3D] hover:text-black md:h-40 md:w-40"
+              >
+                Let's Talk <span className="ml-1">↗</span>
+              </Link>
             </div>
           </Reveal>
         </div>
@@ -100,11 +95,12 @@ function Index() {
             </div>
           </Reveal>
           <Reveal delay={0.1} className="md:col-span-7 md:pt-12">
-            <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-              About
-            </p>
-            <h2 className="mt-4 font-display text-4xl font-medium leading-tight tracking-tight md:text-5xl">
-              Five years building things that load fast and last long.
+            <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">About</p>
+            <h2
+              className="mt-4 font-display font-medium leading-[0.95] tracking-tighter"
+              style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
+            >
+              Five years building things that load fast.
             </h2>
             <p className="mt-6 max-w-xl text-white/70">
               I work end-to-end — from the first sketch to shipped code. My favourite projects sit at
@@ -127,11 +123,12 @@ function Index() {
       <section className="px-5 py-24 md:px-10 md:py-32">
         <div className="mx-auto max-w-[1400px]">
           <Reveal>
-            <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-              What I do
-            </p>
-            <h2 className="mt-4 max-w-3xl font-display text-4xl font-medium leading-tight tracking-tight md:text-6xl">
-              Three disciplines, <span className="text-[#D6FF3D]">one</span> opinionated practice.
+            <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">What I do</p>
+            <h2
+              className="mt-4 max-w-5xl font-display font-medium leading-[0.95] tracking-tighter"
+              style={{ fontSize: "clamp(3rem, 9vw, 8rem)" }}
+            >
+              Three disciplines, <span className="text-[#D6FF3D]">one</span> practice.
             </h2>
           </Reveal>
 
@@ -167,76 +164,109 @@ function Index() {
       <section className="px-5 py-24 md:px-10 md:py-32">
         <div className="mx-auto max-w-[1400px]">
           <Reveal>
-            <div className="flex items-end justify-between gap-6">
-              <div>
-                <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-                  Selected Work
-                </p>
-                <h2 className="mt-4 font-display text-4xl font-medium tracking-tight md:text-6xl">
-                  Recent projects
-                </h2>
-              </div>
-              <Link
-                to="/projects"
-                className="hidden rounded-full border border-white/20 px-5 py-2.5 font-display text-sm hover:bg-white/5 md:inline-flex"
-              >
-                View all ↗
-              </Link>
-            </div>
+            <h2
+              className="text-center font-display font-medium leading-[0.85] tracking-tighter text-white"
+              style={{ fontSize: "clamp(4rem, 18vw, 18rem)" }}
+            >
+              PORTFOLIO
+            </h2>
           </Reveal>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
+          <div className="mt-16 grid gap-6 md:grid-cols-2">
             {projects.slice(0, 4).map((p, i) => (
               <ProjectCard key={p.slug} project={p} index={i} />
             ))}
+          </div>
+
+          <div className="mt-14 flex justify-center">
+            <Link
+              to="/projects"
+              className="group flex h-32 w-32 items-center justify-center rounded-full border border-white/20 font-display text-sm uppercase tracking-[0.2em] hover:bg-[#D6FF3D] hover:text-black md:h-40 md:w-40"
+            >
+              View all ↗
+            </Link>
           </div>
         </div>
       </section>
 
       <Testimonials />
 
-      {/* ARTICLES */}
+      {/* ARTICLES — Latest Articles structure */}
       <section className="border-t border-white/10 px-5 py-24 md:px-10 md:py-32">
         <div className="mx-auto max-w-[1400px]">
           <Reveal>
-            <div className="flex items-end justify-between gap-6">
-              <div>
-                <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-                  Writing
-                </p>
-                <h2 className="mt-4 font-display text-4xl font-medium tracking-tight md:text-6xl">
-                  From the journal
-                </h2>
-              </div>
-              <Link
-                to="/blog"
-                className="hidden rounded-full border border-white/20 px-5 py-2.5 font-display text-sm hover:bg-white/5 md:inline-flex"
-              >
-                All posts ↗
-              </Link>
+            <div className="flex items-center gap-4">
+              <p className="font-display text-sm uppercase tracking-[0.25em] text-white">
+                Blog &amp; Articles
+              </p>
+              <span className="h-px w-32 bg-white/20" />
             </div>
           </Reveal>
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
-            {posts.slice(0, 3).map((p, i) => (
-              <Reveal key={p.slug} delay={i * 0.08}>
-                <Link to="/blog/$slug" params={{ slug: p.slug }} className="group block">
-                  <div className="overflow-hidden rounded-2xl">
-                    <img
-                      src={p.image}
-                      alt={p.title}
-                      loading="lazy"
-                      className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                  </div>
-                  <p className="mt-5 font-display text-xs uppercase tracking-[0.25em] text-white/40">
-                    {p.category} · {p.date}
-                  </p>
-                  <h3 className="mt-2 font-display text-2xl font-medium leading-snug tracking-tight group-hover:text-[#D6FF3D]">
-                    {p.title}
-                  </h3>
-                </Link>
-              </Reveal>
-            ))}
+          <Reveal delay={0.1}>
+            <h2
+              className="mt-6 font-display font-medium leading-[0.95] tracking-tighter"
+              style={{ fontSize: "clamp(3.5rem, 12vw, 12rem)" }}
+            >
+              Latest Articles
+            </h2>
+          </Reveal>
+
+          <div className="mt-16 grid gap-6 md:grid-cols-3">
+            {posts.slice(0, 3).map((p, i) => {
+              const featured = i === 1;
+              return (
+                <Reveal key={p.slug} delay={i * 0.08}>
+                  <Link
+                    to="/blog/$slug"
+                    params={{ slug: p.slug }}
+                    className={`group flex h-full flex-col rounded-2xl border p-6 md:p-8 ${
+                      featured
+                        ? "border-[#D6FF3D] bg-[#D6FF3D] text-black"
+                        : "border-white/10 bg-[#0a0a0a]"
+                    }`}
+                  >
+                    <div className="flex items-center gap-6 font-display text-sm">
+                      <span className="inline-flex items-center gap-2">
+                        <span>🏷</span> {p.category}
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <span>📅</span> {p.date}
+                      </span>
+                    </div>
+                    <h3
+                      className={`mt-8 font-display font-medium leading-tight tracking-tight ${
+                        featured ? "text-black" : "text-white"
+                      }`}
+                      style={{ fontSize: "clamp(1.75rem, 2.4vw, 2.5rem)" }}
+                    >
+                      {p.title}
+                    </h3>
+                    <div className="relative mt-8 overflow-hidden rounded-xl">
+                      <img
+                        src={p.image}
+                        alt={p.title}
+                        loading="lazy"
+                        className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
+                      {featured && (
+                        <span className="absolute left-1/2 top-1/2 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#D6FF3D] font-display text-sm uppercase tracking-[0.2em] text-black">
+                          View ↗
+                        </span>
+                      )}
+                    </div>
+                  </Link>
+                </Reveal>
+              );
+            })}
+          </div>
+
+          <div className="mt-14 flex justify-center">
+            <Link
+              to="/blog"
+              className="group flex h-32 w-32 items-center justify-center rounded-full border border-white/20 font-display text-sm uppercase tracking-[0.2em] hover:bg-[#D6FF3D] hover:text-black md:h-40 md:w-40"
+            >
+              View all ↗
+            </Link>
           </div>
         </div>
       </section>
