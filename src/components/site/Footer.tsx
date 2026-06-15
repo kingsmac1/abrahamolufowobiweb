@@ -44,8 +44,8 @@ export function Footer() {
               <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">Contact</p>
               <ul className="mt-4 space-y-2 font-display text-sm">
                 <li>
-                  <a href="mailto:abrahamolufowobi-web@gmail.com" className="text-white/80 hover:text-white break-all">
-                    abrahamolufowobi-web@gmail.com
+                  <a href="mailto:abrahamolufowobi.web@gmail.com" className="text-white/80 hover:text-white break-all">
+                    abrahamolufowobi.web@gmail.com
                   </a>
                 </li>
                 <li>

@@ -32,7 +32,7 @@ function Contact() {
     const body = `Name: ${first} ${last}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`;
 
     // Send to email
-    window.location.href = `mailto:abrahamolufowobi-web@gmail.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:abrahamolufowobi.web@gmail.com?subject=${encodeURIComponent(
       subject,
     )}&body=${encodeURIComponent(body)}`;
 
@@ -71,10 +71,10 @@ function Contact() {
             <div className="rounded-2xl border border-white/10 bg-[#0a0a0a] p-6">
               <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">Email</p>
               <a
-                href="mailto:abrahamolufowobi-web@gmail.com"
+                href="mailto:abrahamolufowobi.web@gmail.com"
                 className="mt-3 block break-all font-display text-base text-white hover:text-[#D6FF3D]"
               >
-                abrahamolufowobi-web@gmail.com
+                abrahamolufowobi.web@gmail.com
               </a>
             </div>
             <div className="mt-4 rounded-2xl border border-white/10 bg-[#0a0a0a] p-6">

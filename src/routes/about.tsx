@@ -67,10 +67,10 @@ function About() {
                 Get in touch
               </p>
               <a
-                href="mailto:abrahamolufowobi-web@gmail.com"
+                href="mailto:abrahamolufowobi.web@gmail.com"
                 className="mt-3 block break-all font-display text-lg text-white hover:text-[#D6FF3D]"
               >
-                abrahamolufowobi-web@gmail.com
+                abrahamolufowobi.web@gmail.com
               </a>
               <a href="tel:+447823765197" className="mt-1 block font-display text-lg text-white/80">
                 +44 7823 765197
