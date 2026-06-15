@@ -97,41 +97,6 @@ function ServiceDetail() {
         </div>
       </section>
 
-      <section className="border-t border-white/10 px-5 py-20 md:px-10 md:py-24">
-        <div className="mx-auto max-w-[1400px]">
-          <Reveal>
-            <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-              Pricing
-            </p>
-            <h2 className="mt-4 font-display text-3xl font-medium tracking-tight md:text-5xl">
-              Transparent starting points.
-            </h2>
-          </Reveal>
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
-            {service.pricing.map((p, i) => (
-              <Reveal key={p.tier} delay={i * 0.08}>
-                <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#0a0a0a] p-8">
-                  <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-                    {p.tier}
-                  </p>
-                  <p className="mt-4 font-display text-3xl font-medium text-[#D6FF3D]">{p.price}</p>
-                  <ul className="mt-6 space-y-2 text-sm text-white/70">
-                    {p.includes.map((it) => (
-                      <li key={it}>— {it}</li>
-                    ))}
-                  </ul>
-                  <Link
-                    to="/contact"
-                    className="mt-auto pt-8 font-display text-sm text-[#D6FF3D]"
-                  >
-                    Start a project ↗
-                  </Link>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="border-t border-white/10 px-5 py-20 md:px-10 md:py-24">
         <div className="mx-auto grid max-w-[1400px] gap-12 md:grid-cols-12">
