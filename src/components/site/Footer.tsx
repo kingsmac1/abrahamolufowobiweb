@@ -62,7 +62,7 @@ export function Footer() {
         <div className="border-t border-white/10 pt-12">
           <h2
             className="text-center font-display font-medium leading-[0.85] tracking-tighter text-white"
-            style={{ fontSize: "clamp(3rem, 9vw, 10rem)" }}
+            style={{ fontSize: "clamp(3rem, 10vw, 12rem)" }}
           >
             <span className="block">ABRAHAM</span>
             <span className="block">OLUWOFOBI</span>
