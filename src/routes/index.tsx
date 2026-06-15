@@ -213,19 +213,14 @@ function Index() {
 
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             {posts.slice(0, 3).map((p, i) => {
-              const featured = i === 1;
               return (
                 <Reveal key={p.slug} delay={i * 0.08}>
                   <Link
                     to="/blog/$slug"
                     params={{ slug: p.slug }}
-                    className={`group flex h-full flex-col rounded-2xl border p-6 md:p-8 ${
-                      featured
-                        ? "border-[#D6FF3D] bg-[#D6FF3D] text-black"
-                        : "border-white/10 bg-[#0a0a0a]"
-                    }`}
+                    className="group flex h-full flex-col rounded-2xl border border-white/10 bg-[#0a0a0a] p-6 transition-colors hover:border-[#D6FF3D] hover:bg-[#D6FF3D] hover:text-black md:p-8"
                   >
-                    <div className="flex items-center gap-6 font-display text-sm">
+                    <div className="flex items-center gap-6 font-display text-sm transition-colors group-hover:text-black">
                       <span className="inline-flex items-center gap-2">
                         <span>🏷</span> {p.category}
                       </span>
@@ -234,9 +229,7 @@ function Index() {
                       </span>
                     </div>
                     <h3
-                      className={`mt-8 font-display font-medium leading-tight tracking-tight ${
-                        featured ? "text-black" : "text-white"
-                      }`}
+                      className="mt-8 font-display font-medium leading-tight tracking-tight text-white transition-colors group-hover:text-black"
                       style={{ fontSize: "clamp(1.75rem, 2.4vw, 2.5rem)" }}
                     >
                       {p.title}
@@ -248,11 +241,9 @@ function Index() {
                         loading="lazy"
                         className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                       />
-                      {featured && (
-                        <span className="absolute left-1/2 top-1/2 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#D6FF3D] font-display text-sm uppercase tracking-[0.2em] text-black">
-                          View ↗
-                        </span>
-                      )}
+                      <span className="absolute left-1/2 top-1/2 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#D6FF3D] font-display text-sm uppercase tracking-[0.2em] text-black opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        View ↗
+                      </span>
                     </div>
                   </Link>
                 </Reveal>
