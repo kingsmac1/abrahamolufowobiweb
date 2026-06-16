@@ -65,6 +65,7 @@ export const projects: Project[] = [
       "Rebuilt Ledger's portfolio tool around a real-time data layer and a single dense view. Designed for speed, keyboard navigation and accessibility.",
     challenge: "Users were drowning in tabs. We needed one screen, every market, no noise.",
     outcome: "Daily active time-in-app up 41%. Support tickets down 22%.",
+    url: "https://example.com",
   },
   {
     slug: "meridian-restaurant",
