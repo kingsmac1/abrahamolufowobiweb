@@ -6,6 +6,15 @@ import p5 from "@/assets/projects/p5.jpg";
 import p6 from "@/assets/projects/p6.jpg";
 import kwa from "@/assets/projects/kwa.png";
 import kwaMobile from "@/assets/projects/kwa-mobile.png";  // ← fixed: camelCase, no hyphen
+import cmax from "@/assets/projects/cmax.jpg";
+import cmaxmobile from "@/assets/projects/cmax-mobile.jpg";  // ← fixed: camelCase, no hyphen
+import study from "@/assets/projects/study-easy.jpg";
+import studymobile from "@/assets/projects/study-easy-mobile.jpg";  // ← fixed: camelCase, no hyphen
+import tplum from "@/assets/projects/tplum.jpg";
+import tplummobile from "@/assets/projects/tplum-mobile.jpg";  // ← fixed: camelCase, no hyphen
+import creap from "@/assets/projects/creap.jpg";
+import creapmobile from "@/assets/projects/creap-mobile.jpg";  // ← fixed: camelCase, no hyphen
+
 
 export type Project = {
   slug: string;
@@ -143,8 +152,8 @@ export const projects: Project[] = [
     year: "2025",
     client: "C-Max Consulting LLC",
     services: ["Website Development", "Branding"],
-    image: p1,  // TODO: replace with actual image import
-    // mobileImage: p8Mobile,
+    image: creap,  // TODO: replace with actual image import
+    mobileImage: creapmobile,  // TODO: replace with actual image import
     excerpt: "A high-authority web presence for a global IT and project management consultancy.",
     overview:
       "C-Max Consulting LLC is an Indiana-based consultancy serving organizations across oil & gas, manufacturing, healthcare, logistics, and government. They needed a website that matched the sophistication of their service offering — one that communicated expertise in IT consulting, cybersecurity, project delivery, and workforce transformation without feeling generic. We built a structured, conversion-focused site with clear service architecture, a strong visual identity, and a tone that positions C-Max as a strategic partner rather than a vendor.",
@@ -161,8 +170,8 @@ export const projects: Project[] = [
     year: "2026",
     client: "Study-Easy Global Consult",
     services: ["Website Development", "Branding"],
-    image: p1,  // TODO: replace with actual image import
-    // mobileImage: p9Mobile,
+    image: study,  // TODO: replace with actual image import
+    mobileImage: studymobile,
     excerpt: "A warm, conversion-driven website for a Nigeria-based international education consultancy.",
     overview:
       "Study-Easy Global Consult helps Nigerian students and professionals secure admissions into top universities across the UK, Canada, USA, Australia, Ireland, and Europe. They needed a website that was both informative and emotionally reassuring — one that could guide a prospective student from curiosity to action, while clearly communicating their end-to-end support model. We built a clean, structured WordPress site with a strong service architecture, destination guides, a blog, and a seamless application flow.",
@@ -179,8 +188,8 @@ export const projects: Project[] = [
     year: "2026",
     client: "Tplum Photography",
     services: ["Website Development", "Branding"],
-    image: p1,  // TODO: replace with actual image import
-    // mobileImage: p10Mobile,
+    image: tplum,  // TODO: replace with actual image import
+    mobileImage: tplummobile,
     excerpt: "A cinematic portfolio site for a Canadian wedding and portrait photographer.",
     overview:
       "Tplum Photography — led by Jeremy, a Calgary-based photographer serving Alberta and destinations worldwide — needed a digital presence as expressive as his work. TPLUM stands for Telling Pure Lasting Unscripted Memories, and every element of the site was built to reflect that philosophy. We crafted an immersive, image-led portfolio site that balances artistic presentation with clear commercial intent, allowing couples and clients to connect emotionally with Jeremy's work before ever reaching out.",
@@ -197,8 +206,8 @@ export const projects: Project[] = [
     year: "2025",
     client: "CREAP Africa Initiative",
     services: ["Website Development", "Branding"],
-    image: p1,  // TODO: replace with actual image import
-    // mobileImage: p11Mobile,
+    image: creap,  // TODO: replace with actual image import
+    mobileImage: creapmobile,
     excerpt: "An elite nonprofit website for a Nigerian civil society organisation driving policy and community impact.",
     overview:
       "CREAP Africa Initiative is a registered nonprofit championing Community, Rights, Education, Advancement, and Pathway across Nigeria and Africa. Their work spans evidence-driven policy research, peacebuilding, democratic governance, climate action, youth empowerment, and inclusive development. With over 28,200 people reached and 27 major programs, they needed a website that matched the depth and credibility of their mission — one capable of communicating complex program portfolios to donors, partners, policymakers, and community stakeholders simultaneously.",
