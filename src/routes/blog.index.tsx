@@ -6,7 +6,7 @@ import { posts } from "@/data/blog";
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Journal — Abraham Oluwofobi" },
+      { title: "Journal — Abraham Olufowobi" },
       { name: "description", content: "Writing on design, brand, and the web." },
     ],
   }),

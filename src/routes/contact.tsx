@@ -6,10 +6,10 @@ import { CTASection } from "@/components/site/Sections";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Abraham Oluwofobi" },
+      { title: "Contact — Abraham Olufowobi" },
       {
         name: "description",
-        content: "Start a project with Abraham Oluwofobi. Reply within 24 hours.",
+        content: "Start a project with Abraham Olufowobi. Reply within 24 hours.",
       },
     ],
   }),

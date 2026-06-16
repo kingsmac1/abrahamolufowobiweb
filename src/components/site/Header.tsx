@@ -42,7 +42,7 @@ export function Header() {
       >
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-5 py-5 md:px-10 md:py-6">
           <Link to="/" className="flex items-center gap-2 font-display">
-            <img src={logo} alt="Abraham Oluwofobi" className="h-7 w-auto" />
+            <img src={logo} alt="Abraham Olufowobi" className="h-7 w-auto" />
           </Link>
 
           <nav className="hidden items-center gap-1 rounded-full border border-white/10 bg-white/[0.03] px-2 py-2 lg:flex">
@@ -94,7 +94,7 @@ export function Header() {
           >
             <div className="flex items-center justify-between px-5 py-5">
               <Link to="/" className="flex items-center gap-2">
-                <img src={logo} alt="Abraham Oluwofobi" className="h-7 w-auto" />
+                <img src={logo} alt="Abraham Olufowobi" className="h-7 w-auto" />
               </Link>
               <button
                 onClick={() => setOpen(false)}
@@ -137,7 +137,7 @@ export function Header() {
                 <span>↗</span>
               </Link>
               <p className="mt-4 text-center font-display text-xs uppercase tracking-[0.3em] text-white/40">
-                Abraham Oluwofobi · 2026
+                Abraham Olufowobi · 2026
               </p>
             </motion.div>
           </motion.div>

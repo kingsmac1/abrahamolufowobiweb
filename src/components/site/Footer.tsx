@@ -65,13 +65,13 @@ export function Footer() {
             style={{ fontSize: "clamp(3rem, 10vw, 12rem)" }}
           >
             <span className="block">ABRAHAM</span>
-            <span className="block">OLUWOFOBI</span>
+            <span className="block">OLUFOWOBI</span>
           </h2>
         </div>
 
         <div className="flex flex-col items-center justify-between gap-3 border-t border-white/10 py-6 md:flex-row">
           <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
-            © 2026 Abraham Oluwofobi. All rights reserved.
+            © 2026 Abraham Olufowobi. All rights reserved.
           </p>
           <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">
             Designed & built in London

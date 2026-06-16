@@ -67,13 +67,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Abraham Oluwofobi — Web Developer, Brand & Graphic Designer" },
+      { title: "Abraham Oluwfowobi — Web Developer, Brand & Graphic Designer" },
       {
         name: "description",
         content:
-          "Abraham Oluwofobi is an independent designer & developer building websites, brand identities and graphic design from London.",
+          "Abraham Olufowobi is an independent designer & developer building websites, brand identities and graphic design from London.",
       },
-      { name: "author", content: "Abraham Oluwofobi" },
+      { name: "author", content: "Abraham Olufowobi" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

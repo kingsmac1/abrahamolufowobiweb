@@ -7,13 +7,13 @@ import workspace from "@/assets/workspace.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Abraham Oluwofobi" },
+      { title: "About — Abraham Olufowobi" },
       {
         name: "description",
         content:
-          "Abraham Oluwofobi is an independent designer & developer in London. Five years of brand, web and product work.",
+          "Abraham Olufowobi is an independent designer & developer in London. Five years of brand, web and product work.",
       },
-      { property: "og:title", content: "About — Abraham Oluwofobi" },
+      { property: "og:title", content: "About — Abraham Olufowobi" },
     ],
   }),
   component: About,
@@ -60,7 +60,7 @@ function About() {
         <div className="mx-auto grid max-w-[1400px] gap-10 md:grid-cols-12">
           <Reveal className="md:col-span-5">
             <div className="overflow-hidden rounded-2xl">
-              <img src={portrait} alt="Abraham Oluwofobi" className="w-full" />
+              <img src={portrait} alt="Abraham Olufowobi" className="w-full" />
             </div>
             <div className="mt-6 rounded-2xl border border-white/10 bg-[#0a0a0a] p-6">
               <p className="font-display text-xs uppercase tracking-[0.3em] text-white/40">

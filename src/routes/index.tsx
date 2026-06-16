@@ -10,13 +10,13 @@ import portrait from "@/assets/portrait.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Abraham Oluwofobi — Web Developer & Brand Designer" },
+      { title: "Abraham Olufowobi — Web Developer & Brand Designer" },
       {
         name: "description",
         content:
           "Independent designer & developer building websites, brand identities and graphic design from London.",
       },
-      { property: "og:title", content: "Abraham Oluwofobi — Web Developer & Brand Designer" },
+      { property: "og:title", content: "Abraham Olufowobi — Web Developer & Brand Designer" },
       {
         property: "og:description",
         content: "Websites, brand identities and graphic design from London.",
@@ -54,7 +54,7 @@ function Index() {
             <div className="flex items-center gap-2">
               <span className="inline-block h-2 w-2 rounded-full bg-[#D6FF3D]" />
               <p className="font-display text-xs uppercase tracking-[0.3em] text-white/60">
-                Hey There! Abraham Oluwofobi Here
+                Hey There! Abraham Olufowobi Here
               </p>
             </div>
           </Reveal>
@@ -91,7 +91,7 @@ function Index() {
         <div className="mx-auto max-w-[1400px] grid gap-12 md:grid-cols-12">
           <Reveal className="md:col-span-5">
             <div className="overflow-hidden rounded-2xl">
-              <img src={portrait} alt="Abraham Oluwofobi" className="w-full" />
+              <img src={portrait} alt="Abraham Olufowobi" className="w-full" />
             </div>
           </Reveal>
           <Reveal delay={0.1} className="md:col-span-7 md:pt-12">
