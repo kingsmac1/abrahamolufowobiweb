@@ -152,8 +152,8 @@ export const projects: Project[] = [
     year: "2025",
     client: "C-Max Consulting LLC",
     services: ["Website Development", "Branding"],
-    image: creap,  // TODO: replace with actual image import
-    mobileImage: creapmobile,  // TODO: replace with actual image import
+    image: cmax,  // TODO: replace with actual image import
+    mobileImage: cmaxmobile,  // TODO: replace with actual image import
     excerpt: "A high-authority web presence for a global IT and project management consultancy.",
     overview:
       "C-Max Consulting LLC is an Indiana-based consultancy serving organizations across oil & gas, manufacturing, healthcare, logistics, and government. They needed a website that matched the sophistication of their service offering — one that communicated expertise in IT consulting, cybersecurity, project delivery, and workforce transformation without feeling generic. We built a structured, conversion-focused site with clear service architecture, a strong visual identity, and a tone that positions C-Max as a strategic partner rather than a vendor.",
