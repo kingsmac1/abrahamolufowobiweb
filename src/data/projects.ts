@@ -8,8 +8,8 @@ import kwa from "@/assets/projects/kwa.png";
 import kwaMobile from "@/assets/projects/kwa-mobile.png";  // ← fixed: camelCase, no hyphen
 import cmax from "@/assets/projects/cmax.jpg";
 import cmaxmobile from "@/assets/projects/cmax-mobile.jpg";  // ← fixed: camelCase, no hyphen
-import study from "@/assets/projects/study-easy.jpg";
-import studymobile from "@/assets/projects/study-easy-mobile.jpg";  // ← fixed: camelCase, no hyphen
+import study from "@/assets/projects/study.jpg";
+import studymobile from "@/assets/projects/study-mobile.jpg";  // ← fixed: camelCase, no hyphen
 import tplum from "@/assets/projects/tplum.jpg";
 import tplummobile from "@/assets/projects/tplum-mobile.jpg";  // ← fixed: camelCase, no hyphen
 import creap from "@/assets/projects/creap.jpg";
