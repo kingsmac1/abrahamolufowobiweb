@@ -4,6 +4,8 @@ import p3 from "@/assets/projects/p3.jpg";
 import p4 from "@/assets/projects/p4.jpg";
 import p5 from "@/assets/projects/p5.jpg";
 import p6 from "@/assets/projects/p6.jpg";
+import kwa from "@/assets/projects/kwa.jpg";
+import kwa-mobile from "@/assets/projects/kwa-mobile.jpg";
 
 export type Project = {
   slug: string;
@@ -123,8 +125,8 @@ export const projects: Project[] = [
     year: "2025",
     client: "Kwa Gas and Energy Company Limited",
     services: ["Website Development", "Branding"],
-    image: p1,
-    // mobileImage: p7Mobile,
+    image: kwa,
+    mobileImage: kwa-mobile,
     excerpt: "A bold digital presence for a Nigerian energy company built for trust and scale.",
     overview:
       "Kwa Gas and Energy Company Limited required a corporate web presence that could carry the weight of their brand in a highly regulated and trust-sensitive industry. We designed and developed a clean, professional site that communicates capability, compliance, and ambition — giving the company a digital foundation worthy of their operations. The build involved a full React-based SPA architecture deployed on Netlify with custom DNS configuration, ensuring fast load times and long-term maintainability.",
