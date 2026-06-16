@@ -28,12 +28,17 @@ export function ProjectCard({ project, index = 0 }: { project: Project; index?: 
         className={`group relative overflow-hidden rounded-2xl bg-[#0a0a0a] ${hover ? "cursor-none" : ""}`}
       >
         <div className="aspect-[4/3] overflow-hidden">
-          <img
-            src={project.image}
-            alt={project.title}
-            loading="lazy"
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-          />
+          <picture>
+            {project.mobileImage && (
+              <source srcSet={project.mobileImage} media="(max-width: 767px)" />
+            )}
+            <img
+              src={project.image}
+              alt={project.title}
+              loading="lazy"
+              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </picture>
         </div>
         <div className="flex items-end justify-between p-6">
           <div>

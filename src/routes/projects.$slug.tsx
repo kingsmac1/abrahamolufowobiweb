@@ -63,7 +63,16 @@ function ProjectDetail() {
       <section className="px-5 py-16 md:px-10">
         <Reveal className="mx-auto max-w-[1400px]">
           <div className="overflow-hidden rounded-3xl">
-            <img src={project.image} alt={project.title} className="w-full" />
+            <picture>
+              {project.mobileImage && (
+                <source srcSet={project.mobileImage} media="(max-width: 767px)" />
+              )}
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full"
+              />
+            </picture>
           </div>
         </Reveal>
       </section>
@@ -84,7 +93,7 @@ function ProjectDetail() {
                 </div>
               ))}
               {project.url && (
-                <a
+                
                   href={project.url}
                   target="_blank"
                   rel="noreferrer"
