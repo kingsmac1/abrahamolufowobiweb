@@ -93,14 +93,19 @@ function ProjectDetail() {
                 </div>
               ))}
               {project.url && (
-                
-                  href={project.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-2 inline-flex items-center gap-2 rounded-full bg-[#D6FF3D] px-5 py-2.5 font-display text-sm font-medium text-black"
-                >
-                  Visit live site ↗
-                </a>
+                <div>
+                  <dt className="font-display text-xs uppercase tracking-[0.25em] text-white/40">Live site</dt>
+                  <dd className="mt-2">
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full bg-[#D6FF3D] px-5 py-2.5 font-display text-sm font-medium text-black"
+                    >
+                      Visit live site ↗
+                    </a>
+                  </dd>
+                </div>
               )}
             </dl>
           </Reveal>

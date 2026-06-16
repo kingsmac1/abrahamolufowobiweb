@@ -123,7 +123,7 @@ export const projects: Project[] = [
     year: "2025",
     client: "Kwa Gas and Energy Company Limited",
     services: ["Website Development", "Branding"],
-    image: p7,
+    image: p1,
     // mobileImage: p7Mobile,
     excerpt: "A bold digital presence for a Nigerian energy company built for trust and scale.",
     overview:
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     year: "2025",
     client: "C-Max Consulting LLC",
     services: ["Website Development", "Branding"],
-    image: p8,
+    image: p1,
     // mobileImage: p8Mobile,
     excerpt: "A high-authority web presence for a global IT and project management consultancy.",
     overview:
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     year: "2026",
     client: "Study-Easy Global Consult",
     services: ["Website Development", "Branding"],
-    image: p9,
+    image: p1,
     // mobileImage: p9Mobile,
     excerpt: "A warm, conversion-driven website for a Nigeria-based international education consultancy.",
     overview:
@@ -177,7 +177,7 @@ export const projects: Project[] = [
     year: "2026",
     client: "Tplum Photography",
     services: ["Website Development", "Branding"],
-    image: p10,
+    image: p1,
     // mobileImage: p10Mobile,
     excerpt: "A cinematic portfolio site for a Canadian wedding and portrait photographer.",
     overview:
@@ -195,7 +195,7 @@ export const projects: Project[] = [
     year: "2025",
     client: "CREAP Africa Initiative",
     services: ["Website Development", "Branding"],
-    image: p11,
+    image: p1,
     // mobileImage: p11Mobile,
     excerpt: "An elite nonprofit website for a Nigerian civil society organisation driving policy and community impact.",
     overview:
