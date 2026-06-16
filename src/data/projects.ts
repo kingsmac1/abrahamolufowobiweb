@@ -4,8 +4,8 @@ import p3 from "@/assets/projects/p3.jpg";
 import p4 from "@/assets/projects/p4.jpg";
 import p5 from "@/assets/projects/p5.jpg";
 import p6 from "@/assets/projects/p6.jpg";
-import kwa from "@/assets/projects/kwa.jpg";
-import kwaMobile from "@/assets/projects/kwa-mobile.jpg";  // ← fixed: camelCase, no hyphen
+import kwa from "@/assets/projects/kwa.png";
+import kwaMobile from "@/assets/projects/kwa-mobile.png";  // ← fixed: camelCase, no hyphen
 
 export type Project = {
   slug: string;
