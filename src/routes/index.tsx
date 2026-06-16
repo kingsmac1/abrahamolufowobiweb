@@ -100,7 +100,7 @@ function Index() {
               className="mt-4 font-display font-medium leading-[0.95] tracking-tighter"
               style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
             >
-              Five years building things that load fast.
+              Five years building things that load fast
             </h2>
             <p className="mt-6 max-w-xl text-white/70">
               I work end-to-end — from the first sketch to shipped code. My favourite projects sit at
