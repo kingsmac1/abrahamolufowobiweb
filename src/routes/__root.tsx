@@ -1,3 +1,4 @@
+import CookieConsent from "@/components/CookieConsent";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -113,7 +114,7 @@ function RootComponent() {
       <ScrollToTop />
       <Header />
       <main className="min-h-screen">
-        <Outlet />
+        <><Outlet /><CookieConsent /></>
       </main>
       <Footer />
     </QueryClientProvider>
